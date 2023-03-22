@@ -928,12 +928,7 @@ const unsigned char LabElect [] PROGMEM = {
 
 void loop(){
 	
-	if(Serial.read()=='w'){
-		tft.fillRect(0,0,20,20, Negro);
-	}
-       
-	/*
-    //inicio();
+	
 	Mapa_1();
 	delay(1500);
     Inicio_Combate();
@@ -947,7 +942,7 @@ void loop(){
 	Ataque_Aliado();
 	Menu_Combate();
 	delay(3000);
-   	*/
+   	
     
    
 }
